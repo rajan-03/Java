@@ -18,6 +18,7 @@ Anonymous array: An array in Java without any name is anonymous array. It is an 
                      new int[][] { {10, 20}, {30, 40, 50} };
                     
       Code
+      
              class AnonymousArray
               {
                static void print(int a[])
