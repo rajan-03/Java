@@ -12,7 +12,7 @@ Anonymous array: An array in Java without any name is anonymous array. It is an 
                     new char[] {'x', 'y', 'z'); 
 
                    
-                   new String[] {"Geeks", "for", "Geeks"}; 
+                   new String[] {"GCES", "GCES", "GCES"}; 
 
                  
                      new int[][] { {10, 20}, {30, 40, 50} };
