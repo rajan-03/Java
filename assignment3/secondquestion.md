@@ -10,7 +10,7 @@ The Java ActionListener is notified whenever you click on the button or menu ite
 
 It has 1 method:
 
-public abstract void actionPerformed(ActionEvent e);
+- public abstract void actionPerformed(ActionEvent e);
 
 Example
 
@@ -52,9 +52,9 @@ It has 3 methods:
 
 -public abstract void keyPressed(KeyEvent e);
 
- public abstract void keyReleased(KeyEvent e);
+- public abstract void keyReleased(KeyEvent e);
 
-public abstract void keyTyped(KeyEvent e);
+ -public abstract void keyTyped(KeyEvent e);
 
 Example
 
@@ -78,12 +78,12 @@ It has 7 methods:
 
 - public abstract void windowClosing(WindowEvent e);
 
-public abstract void windowClosed(WindowEvent e);
+ -public abstract void windowClosed(WindowEvent e);
 
-public abstract void windowDeactivated(WindowEvent e);
+ -public abstract void windowDeactivated(WindowEvent e);
 
-public abstract void windowDeiconified(WindowEvent e);
+- public abstract void windowDeiconified(WindowEvent e);
 
-public abstract void windowIconified(WindowEvent e);
+ - public abstract void windowIconified(WindowEvent e);
 
-public abstract void windowOpened(WindowEvent e);
+- public abstract void windowOpened(WindowEvent e);
