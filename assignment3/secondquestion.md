@@ -14,7 +14,7 @@ public abstract void actionPerformed(ActionEvent e);
 
 Example
 
-MouseListener
+**MouseListener**
 
 The Java MouseListener is notified whenever you change the state of mouse.
 
@@ -32,7 +32,7 @@ public abstract void mouseReleased(MouseEvent e);
 
 Example
 
-MouseMotionListener
+**MouseMotionListener**
 
 The Java MouseMotionListener is notified whenever you move or drag mouse.
 
@@ -44,7 +44,7 @@ public abstract void mouseMoved(MouseEvent e);
 
 Example
 
-KeyListener
+**KeyListener**
 
 The Java KeyListener is notified whenever you change the state of key.
 
@@ -58,7 +58,7 @@ public abstract void keyTyped(KeyEvent e);
 
 Example
 
-ItemListener
+**ItemListener**
 
 The Java ItemListener is notified whenever you click on the checkbox.
 
@@ -68,7 +68,7 @@ public abstract void itemStateChanged(ItemEvent e);
 
 Example
 
-WindowListener
+**WindowListener**
 
 The Java WindowListener is notified whenever you change the state of window.
 
