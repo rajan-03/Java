@@ -10,36 +10,36 @@ java.awt.event Adapter Classes
 
 **Adapter class	Listener interface**
 
-WindowAdapter	WindowListener
+-  WindowAdapter	WindowListener
 
-KeyAdapter	KeyListener
+ - KeyAdapter	KeyListener
 
-MouseAdapter	MouseListener
+ - MouseAdapter	MouseListener
 
-MouseMotionAdapter	MouseMotionListener
+ - MouseMotionAdapter	MouseMotionListener
 
-FocusAdapter	FocusListener
+- FocusAdapter	FocusListener
 
-ContainerAdapter	ContainerListener
+- ContainerAdapter	ContainerListener
 
-HierarchyBoundsAdapter	HierarchyBoundsListener
+- HierarchyBoundsAdapter	HierarchyBoundsListener
 
 
 
 **java.awt.dnd Adapter classes**
 
-Adapter class	Listener interface
+- Adapter class	Listener interface
 
-DragSourceAdapter	DragSourceListener
+- DragSourceAdapter	DragSourceListener
 
-DragTargetAdapter	DragTargetListener
+- DragTargetAdapter	DragTargetListener
 
 
 
 **javax.swing.event Adapter classes**
 
-Adapter class	Listener interface
+- Adapter class	Listener interface
 
-MouseInputAdapter	MouseInputListener
+- MouseInputAdapter	MouseInputListener
 
-InternalFrameAdapter	InternalFrameListener
+- InternalFrameAdapter	InternalFrameListener
