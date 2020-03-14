@@ -69,23 +69,23 @@ There are eight types of mouse events:
 
 Eight integer constants are defined to determine types:
 
- |MOUSE EVENT    | Generate|
+ | MOUSE EVENT    | Generate                           |
 - - - - - - - - - - - - - - - -  
- |MOUSE_CLICKED	 |When user clicked the mouse|
+ | MOUSE_CLICKED	  | When user clicked the mouse       |
 
- |MOUSE_DRESSED	|The user dragged the mouse|
+ | MOUSE_DRESSED	  | The user dragged the mouse        |
 
- |MOUSE_ENTERED	|The mouse entered a component|
+ | MOUSE_ENTERED	  | The mouse entered a component     |
 
- |MOUSE_EXITED	|The mouse exited from a component|
+ | MOUSE_EXITED	   | The mouse exited from a component |
 
- |MOUSE_MOVED	|The mouse moved|
+ | MOUSE_MOVED	    | The mouse moved                   |
 
- |MOUSE_PRESSED	|The mouse was pressed|
+ | MOUSE_PRESSED	  | The mouse was pressed             |
 
-  |1MOUSE_RELEASED|	The mouse was released|
+ | 1MOUSE_RELEASED |	The mouse was released            |
 
-MOUSE_WHEEL|	The mouse wheel was moved.|
+ | MOUSE_WHEEL     |	The mouse wheel was moved.        | 
 
 **Methods:**
 
