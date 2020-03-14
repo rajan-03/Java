@@ -69,8 +69,8 @@ There are eight types of mouse events:
 
 Eight integer constants are defined to determine types:
 
- | MOUSE EVENT    | Generate                           |
-- - - - - - - - - - - - - - - -  
+ | MOUSE EVENT     | Generate                          |
+ | --------------- |:--------------------------------:|
  | MOUSE_CLICKED	  | When user clicked the mouse       |
 
  | MOUSE_DRESSED	  | The user dragged the mouse        |
@@ -88,6 +88,7 @@ Eight integer constants are defined to determine types:
  | MOUSE_WHEEL     |	The mouse wheel was moved.        | 
 
 **Methods:**
+
 
 int getX()
 
