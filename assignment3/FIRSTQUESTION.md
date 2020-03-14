@@ -1,3 +1,5 @@
+# Explain various event object with its constructor, methods and example?
+
 # Action Event Class
 
 **An Action Event is generated when:**
@@ -10,11 +12,11 @@ menu item is clicked.
 
 **Constructor**
 
-ActionEvent(Object src, int type, String cmd)
+- ActionEvent(Object src, int type, String cmd)
 
-ActionEvent(Object src, int type, String cmd, int modifiers)
+-  ActionEvent(Object src, int type, String cmd, int modifiers)
 
-ActionEvent(Object src, int type, String cmd, long when, int modifiers)
+- ActionEvent(Object src, int type, String cmd, long when, int modifiers)
 
 Here,
 
@@ -36,9 +38,9 @@ When a button is pressed, an action event is generated that has a command name e
 
 **Other Methods **:
 
-int getModifier()
+- int getModifier()
 
-long getWhen()
+- long getWhen()
 
 **KeyEvent Class**
 It is generated when:
@@ -47,11 +49,11 @@ Keyboard input occurs
 
 **Types of KeyEvent**
 
-KEY_PRESSED - generated when key is pressed.
+- KEY_PRESSED - generated when key is pressed.
 
-KEY_RELEASED - generated when key is released.
+- KEY_RELEASED - generated when key is released.
 
-KEY_TYPED - generated when key is generated.
+- KEY_TYPED - generated when key is generated.
 
 Constants
 
@@ -59,9 +61,9 @@ VK_ALT, VK_DOWN, VK_LEFT, VK_RIGHT, VK_ENTER, VK_ESCAPE, VK_CONTROL, VK_SHIFT,
 
 **Methods**
 
-char getKeyChar ();
+- char getKeyChar ();
 
-int getKeyChar ();
+- int getKeyChar ();
 
 **Mouse Event**
 
@@ -83,14 +85,14 @@ Eight integer constants are defined to determine types:
 **Methods:**
 
 
-int getX()
+- int getX()
 
-int getY()
+- int getY()
 
-Point getPoint() -> gives object that contain X, Y co-ordinates
+- Point getPoint() -> gives object that contain X, Y co-ordinates
 
-int getClickCount()
+- int getClickCount()
 
-boolean isPopupTrigger() -> tests if this events causes a pop-up menu to appear on this platform.
+- boolean isPopupTrigger() -> tests if this events causes a pop-up menu to appear on this platform.
 
-int getButton() -> returns a values that represents the button that caused the event.
+- int getButton() -> returns a values that represents the button that caused the event.
