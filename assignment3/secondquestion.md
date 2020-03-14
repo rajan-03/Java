@@ -50,7 +50,7 @@ The Java KeyListener is notified whenever you change the state of key.
 
 It has 3 methods:
 
--public abstract void keyPressed(KeyEvent e);
+- public abstract void keyPressed(KeyEvent e);
 
 - public abstract void keyReleased(KeyEvent e);
 
@@ -78,9 +78,9 @@ It has 7 methods:
 
 - public abstract void windowClosing(WindowEvent e);
 
- -public abstract void windowClosed(WindowEvent e);
+ - public abstract void windowClosed(WindowEvent e);
 
- -public abstract void windowDeactivated(WindowEvent e);
+ - public abstract void windowDeactivated(WindowEvent e);
 
 - public abstract void windowDeiconified(WindowEvent e);
 
