@@ -1,4 +1,4 @@
-#How do you handle event with an adaptor class in java?
+# How do you handle event with an adaptor class in java?
  ## Adaptor Class
  
 Java adapter classes provide the default implementation of listener interfaces. If you inherit the adapter class, 
