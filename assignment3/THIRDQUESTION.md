@@ -24,6 +24,8 @@ ContainerAdapter	ContainerListener
 
 HierarchyBoundsAdapter	HierarchyBoundsListener
 
+
+
 **java.awt.dnd Adapter classes**
 
 Adapter class	Listener interface
@@ -31,6 +33,8 @@ Adapter class	Listener interface
 DragSourceAdapter	DragSourceListener
 
 DragTargetAdapter	DragTargetListener
+
+
 
 **javax.swing.event Adapter classes**
 
