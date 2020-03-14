@@ -12,7 +12,7 @@ It has 1 method:
 
 - public abstract void actionPerformed(ActionEvent e);
 
-Example
+
 
 **MouseListener**
 
@@ -28,9 +28,7 @@ It has 5 methods:
 
  - public abstract void mousePressed(MouseEvent e);
 
-- public abstract void mouseReleased(MouseEvent e);
-
-Example
+- public abstract void mouseReleased(MouseEvent e
 
 **MouseMotionListener**
 
@@ -42,7 +40,6 @@ It has 2 methods:
 
 - public abstract void mouseMoved(MouseEvent e);
 
-Example
 
 **KeyListener**
 
@@ -56,7 +53,6 @@ It has 3 methods:
 
  -public abstract void keyTyped(KeyEvent e);
 
-Example
 
 **ItemListener**
 
@@ -66,7 +62,7 @@ It has 1 method:
 
 - public abstract void itemStateChanged(ItemEvent e);
 
-Example
+
 
 **WindowListener**
 
