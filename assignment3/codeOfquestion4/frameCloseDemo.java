@@ -24,4 +24,4 @@ class FrameCloseDemo extends WindowAdapter{
         new FrameCloseDemo();  
     }  
 }  
-© 2020 GitHub, Inc.
+
