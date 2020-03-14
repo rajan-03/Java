@@ -10,7 +10,7 @@ java.awt.event Adapter Classes
 
 **Adapter class	Listener interface**
 
-***WindowAdapter	WindowListener***
+WindowAdapter	WindowListener
 
 KeyAdapter	KeyListener
 
